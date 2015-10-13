@@ -8,9 +8,12 @@ with a translator (both AST->RDIR and RDIR->AST) and a number of
 sample optimizations which demonstrate how to use the plug-in.
 
 ```
+<h3>Links</h3>
+```
   * Regent: https://github.com/StanfordLegion/legion/tree/regent-0.0/language
   * Legion: https://github.com/StanfordLegion/legion
   * Terra: https://github.com/zdevito/terra
+```
 
 <h3>Installation</h3>
 
@@ -37,6 +40,8 @@ sample optimizations which demonstrate how to use the plug-in.
         git clone .../rdir.git
         cd rdir
         cp -r plugin/src $REGENT
+```
+
 
 <h3>Usage</h3>
 
@@ -55,6 +60,7 @@ compute throughput as inc1 (due to loop and task fusion).
     $REGENT/regent.py examples/inc.rg -fcuda 1 -ll:csize 4096
     $REGENT/regent.py examples/inc.rg -fcuda 1 -ll:gpu 1 -ll:csize 4096 -ll:fsize 4096
 
+```
 <h3>Open Source License</h3>
 
 ```
@@ -83,3 +89,4 @@ compute throughput as inc1 (due to loop and task fusion).
  OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
