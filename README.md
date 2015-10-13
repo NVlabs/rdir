@@ -10,9 +10,9 @@ sample optimizations which demonstrate how to use the plug-in.
 ```
 <h3>Links</h3>
 ```
-  * Regent: https://github.com/StanfordLegion/legion/tree/regent-0.0/language
-  * Legion: https://github.com/StanfordLegion/legion
-  * Terra: https://github.com/zdevito/terra
+  * [Regent:](https://github.com/StanfordLegion/legion/tree/regent-0.0/language)
+  * [Legion:](https://github.com/StanfordLegion/legion)
+  * [Terra:](https://github.com/zdevito/terra)
 ```
 
 <h3>Installation</h3>
