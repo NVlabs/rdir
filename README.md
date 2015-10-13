@@ -7,9 +7,6 @@ RDIR support to Regent, a compiler for task-based parallel programs,
 with a translator (both AST->RDIR and RDIR->AST) and a number of
 sample optimizations which demonstrate how to use the plug-in.
 
-## Links
-<h3>Links</h3>
-
 ```
   * Regent: https://github.com/StanfordLegion/legion/tree/regent-0.0/language
   * Legion: https://github.com/StanfordLegion/legion
